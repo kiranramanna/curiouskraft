@@ -50,3 +50,12 @@ The attributes of this data set include:
 
 3. Coupon attributes
     - time before it expires: 2 hours or one day
+
+
+4. Analysis:
+    - overall 58% of drivers accept coupons
+    - "Coffee House" coupon is highest accepted by count
+    - "Bar" Coupons are accepted more during 55º temperature
+    - More the bar visits, higher the acceptance of bar coupon (77% acceptance opposed to drivers who have not been i.e. 37%
+    - Higher the age and have visited bar, more likly they accept bar coupons
+
