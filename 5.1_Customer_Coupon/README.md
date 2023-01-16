@@ -1,6 +1,6 @@
 # AI-Coupon-Statistics
 ## Will a Customer Accept the Coupon?
-For complete Jupyter Notebook : goto [prompt.ipynb](5.1_Customer_Coupon/prompt.ipynb)
+For complete Jupyter Notebook : goto [prompt.ipynb](prompt.ipynb)
 
 **Context**
 
