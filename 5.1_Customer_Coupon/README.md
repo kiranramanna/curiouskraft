@@ -69,9 +69,15 @@ The attributes of this data set include:
  - `Carry out and take away` has the highest acceptance rate compared to any other coupon type. 2nd is `Restaurant(<20)`.
  - `Coffee House` has th maximum number of data.
  - less than 1% (0.85%) of drivers have provided car/driving details
- - `Unemployed` and `less than 12.5 k` has the 424 records, second is `Cmputer & Mathematical` earning more than 100k with 352 records
+ - `Unemployed` and `less than 12.5 k` has the 424 records, second is `Computer & Mathematical` earning more than 100k with 352 records
  - `Architecture & Engineering` has highest number of count
  - `Healthcare Support` has the highest acceptance rate with 69.8347% compared to any other job
  - `Retired` job type has highest rejection rate with 54.1414%
+ 
+ ### Next Steps and Recommendations
+ - Try to gather more data of car/vehical, that might provide more insights
+ - Provide bar coupon based on weather conditions
+ - Come up with geo-locations bassed on profession so that coupons are more targeted by driver professions
+ - `Restaurant(<20)` has the second highest acceptane rate, provide more of that coupon
 
 ------
