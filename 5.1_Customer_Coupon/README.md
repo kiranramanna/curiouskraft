@@ -1,6 +1,8 @@
 # AI-Coupon-Statistics
 ## Will a Customer Accept the Coupon?
-For complete Jupyter Notebook : goto [prompt.ipynb](prompt.ipynb)
+
+Goto [prompt.ipynb](prompt.ipynb) for complete Jupyter Notebook.
+------
 
 **Context**
 
@@ -8,14 +10,17 @@ Imagine driving through town and a coupon is delivered to your cell phone for a 
 
 Obviously, proximity to the business is a factor on whether the coupon is delivered to the driver or not, but what are the factors that determine whether a driver accepts the coupon once it is delivered to them? How would you determine whether a driver is likely to accept a coupon?
 
+------
 **Overview**
 
 The goal of this project is to use what you know about visualizations and probability distributions to distinguish between customers who accepted a driving coupon versus those that did not.
 
+------
 **Data**
 
 This data comes to us from the UCI Machine Learning repository and was collected via a survey on Amazon Mechanical Turk. The survey describes different driving scenarios including the destination, current time, weather, passenger, etc., and then ask the person whether he will accept the coupon if he is the driver. Answers that the user will drive there ‘right away’ or ‘later before the coupon expires’ are labeled as ‘Y = 1’ and answers ‘no, I do not want the coupon’ are labeled as ‘Y = 0’.  There are five different types of coupons -- less expensive restaurants (under \\$20), coffee houses, carry out & take away, bar, and more expensive restaurants (\\$20 - \\$50). 
 
+------
 ### Data Description
 Keep in mind that these values mentioned below are average values.
 
@@ -53,11 +58,20 @@ The attributes of this data set include:
 3. Coupon attributes
     - time before it expires: 2 hours or one day
 
+------
+### Overall Analysis
 
-4. Analysis:
-    - overall 58% of drivers accept coupons
-    - "Coffee House" coupon is highest accepted by count
-    - "Bar" Coupons are accepted more during 55º temperature
-    - More the bar visits, higher the acceptance of bar coupon (77% acceptance opposed to drivers who have not been i.e. 37%
-    - Higher the age and have visited bar, more likly they accept bar coupons
+ - Overall 58% of drivers accept coupons
+ - "Bar" Coupons are accepted more during 55º temperature
+ - More the bar visits, higher the acceptance of bar coupon (77% acceptance opposed to drivers who have not been i.e. 37%
+ - Higher the age and have visited bar, more likly they accept bar coupons
+ - Singles accept more coupon than any other marital status
+ - `Carry out and take away` has the highest acceptance rate compared to any other coupon type. 2nd is `Restaurant(<20)`.
+ - `Coffee House` has th maximum number of data.
+ - less than 1% (0.85%) of drivers have provided car/driving details
+ - `Unemployed` and `less than 12.5 k` has the 424 records, second is `Cmputer & Mathematical` earning more than 100k with 352 records
+ - `Architecture & Engineering` has highest number of count
+ - `Healthcare Support` has the highest acceptance rate with 69.8347% compared to any other job
+ - `Retired` job type has highest rejection rate with 54.1414%
 
+------
