@@ -54,8 +54,17 @@ The attributes of this data set include:
 
 4. Analysis:
     - overall 58% of drivers accept coupons
-    - "Coffee House" coupon is highest accepted by count
     - "Bar" Coupons are accepted more during 55º temperature
     - More the bar visits, higher the acceptance of bar coupon (77% acceptance opposed to drivers who have not been i.e. 37%
     - Higher the age and have visited bar, more likly they accept bar coupons
+4.1 Independent analysis:
+    - Singles accept more coupon than any other marital status
+    - `Carry out and take away` has the highest acceptance rate compared to any other coupon type. 2nd is `Restaurant(<20)`.
+    - `Coffee House` has th maximum number of data.
+    - less than 1% (0.85%) of drivers have provided car/driving details
+    - `Unemployed` and `less than 12.5 k` has the 424 records, second is `Cmputer & Mathematical` earning more than 100k with 352 records
+    - `Architecture & Engineering` has highest number of count
+    - `Healthcare Support` has the highest acceptance rate with 69.8347% compared to any other job
+    - `Retired` job type has highest rejection rate with 54.1414%
+    
 
