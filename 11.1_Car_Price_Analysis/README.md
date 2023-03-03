@@ -1,7 +1,7 @@
 # AI-Coupon-Statistics
 ## Will a Customer Accept the Coupon?
 
-Goto [prompt_II_2.ipynb](prompt_II_2.ipynb) for complete Jupyter Notebook.
+Goto [prompt_II.ipynb](prompt_II.ipynb) for complete Jupyter Notebook.
 ------
 
 **Context**
