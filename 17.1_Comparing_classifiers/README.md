@@ -13,7 +13,6 @@ The objective of this practical exercise is to evaluate and compare the effectiv
 The origin of the dataset is from the UCI Machine Learning repository [link](https://archive.ics.uci.edu/ml/datasets/bank+marketing), which contains information collected from various marketing campaigns conducted by a Portuguese banking institution.
 
 ------
-
 ### Results
 
 #### Data insights:
@@ -42,5 +41,7 @@ The origin of the dataset is from the UCI Machine Learning repository [link](htt
 
 #### Evaluation:
 - All 4 classifiers were evaluated using accuracy score. Score was almost same for all the classifiers.
+- LogisticRegression took the least time to train the model compared to other classifiers. It gave best scores even with GridSearchCV.
 - SVC took the most time to train the model compared to other classifiers.
 - For gridsearchcv, KNeighborsClassifier took the most time to train the model compared to other classifiers.
+- precision, recall, f1-score, KNN gave the best results compared to other classifiers. with gridsearchcv, SVC was better.
