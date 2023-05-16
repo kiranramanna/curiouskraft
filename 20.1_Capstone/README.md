@@ -36,7 +36,7 @@ The next steps would be to deploy the intent classification model in a conversat
 
 #### Outline of project
 
-- [Link to notebook 1](capstone1.ipynb)
+- [Link to notebook 1](capstone.ipynb)
 
 ##### Contact and Further Information
 If you have any further questions or need additional assistance, please feel free to ask.
