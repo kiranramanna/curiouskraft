@@ -1,4 +1,6 @@
-### Project Title
+### User Utterence Intent identification and Classification
+
+This project will develop a model that takes as input a natural language question of the user query and provides an intent classification of the user query. If the user query belongs to the scope of the model (user intents defined in the Clinc-150 dataset), the output
 
 **Author**
 @kiranramanna
